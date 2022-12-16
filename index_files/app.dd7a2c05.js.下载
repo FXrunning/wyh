@@ -264,17 +264,6 @@
                 }, [n("div", {
                     staticClass: "line-text"
                 }, [t._v(t._s(t.timeStr) + " " + t._s(t.timeStr))])])])], 1)], 1) : t._e(), t.hiddenLoading ? n("div", {
-                    staticClass: "pass-button"
-                }, [n("md-button", {
-                    staticClass: "md-primary md-raised"
-                }, [n("span", {
-                    staticClass: "pass-button-content",
-                    on: {
-                        click: function(e) {
-                            return t.$router.replace("/qr")
-                        }
-                    }
-                }, [t._v("前往个人二维码")])])], 1) : t._e(), t.hiddenLoading ? n("div", {
                     staticClass: "logo"
                 }, [n("img", {
                     staticClass: "logo-img",
